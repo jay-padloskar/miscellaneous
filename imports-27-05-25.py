@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
-%matplotlib inline
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder, FunctionTransformer, RobustScaler, KBinsDiscretizer, StandardScaler
 import optuna
 from sklearn.model_selection import StratifiedKFold, KFold, train_test_split
