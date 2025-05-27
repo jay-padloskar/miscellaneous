@@ -1,4 +1,5 @@
-!pip install scikit-learn==1.6
+import subprocess
+subprocess.check_call(["pip", "install", "scikit-learn==1.6"])
 
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
